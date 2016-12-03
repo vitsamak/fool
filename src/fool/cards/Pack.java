@@ -36,6 +36,7 @@ public class Pack {
     //Колода карт
     private Card[] CardDeck;
 
+    //Достает и возвращает карту из калоды
     public Card getCard() {
         for(int i = 0; i < CardDeck.length; i++){
             if(CardDeck[i] != null){
